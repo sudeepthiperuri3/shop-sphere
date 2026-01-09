@@ -124,10 +124,6 @@ export default function CartPage() {
             >
               Proceed to Checkout
             </Button>
-
-            <Typography variant="caption" color="text.secondary" sx={{ display: 'block', mt: 2, textAlign: 'center' }}>
-              Secure checkout powered by ShopSphere
-            </Typography>
           </Paper>
         </Box>
       </Box>

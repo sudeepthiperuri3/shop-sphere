@@ -265,22 +265,7 @@ export default function WelcomeScreen() {
               </Button>
             </Zoom>
 
-            {/* Version Badge */}
-            <Fade in={show} timeout={2500}>
-              <Typography
-                variant="caption"
-                sx={{
-                  display: 'block',
-                  mt: 4,
-                  color: 'rgba(255, 255, 255, 0.3)',
-                  fontFamily: '"Rajdhani", monospace',
-                  fontSize: '0.7rem',
-                  letterSpacing: '0.2em',
-                }}
-              >
-                VERSION 2.0 • POWERED BY QUANTUM
-              </Typography>
-            </Fade>
+
           </Box>
         </Fade>
       </Container>
